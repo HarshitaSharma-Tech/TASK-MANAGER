@@ -1,0 +1,116 @@
+body {
+      background-color: #000000;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      margin-top: 50px;
+      background-color: #727172;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(134, 103, 138, 0.803);
+    }
+    
+    h1 {
+      color: #131313fe;
+      font-size: 60px;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 60px;
+      text-shadow: 2px 2px 4px rgba(6, 9, 1, 0.879);
+    }
+    
+    .row {
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    #ulTasks {
+      background-color: #f6ff42;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    #ulTasks .list-group-item {
+      cursor: pointer;
+      transition: background-color 0.2s;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+    }
+    
+    #ulTasks .list-group-item:hover {
+      background-color: #732f58;
+      transform: scale(1.02);
+    }
+    
+    #ulTasks .list-group-item.done {
+      color: #fa8016;
+      text-decoration: line-through;
+    }
+    
+    .form-group label {
+      font-weight: bold;
+      color: #290316;
+      font-size: 40px;
+    }
+    
+    .form-control:focus {
+      border-color: #0d2229;
+      box-shadow: 0 0 0 0.2rem rgba(61, 6, 87, 0.838);
+    }
+    
+    .form-text {
+      color: #09710b !important;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    .list-group-item {
+      transition: background-color 0.5s, transform 0.5s;
+    }
+    
+    .guidelines {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .guidelines h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .guidelines ol {
+      margin-left: 20px;
+      font-style: italic;
+      text-align: left;
+    }
+    
+    .btn-oval {
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 100px;
+      padding: 25px 20px;
+    }
+    
+    .btn-success {
+      background-color: rgba(15, 181, 231, 0.964);
+    }
+    
+    .btn-danger {
+      background-color: #e317cb;
+    }
+    
+    .btn-info {
+      background-color: #e7a011;
+    }
+    
+    .btn-warning {
+      background-color: #fd3f00;
+    }
